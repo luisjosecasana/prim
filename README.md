@@ -1,1 +1,0 @@
-Página de Registro de Información Médica

@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+	head
+		title Imagenología Información
+		meta(charset="utf-8")
+		meta(name="viwport" content="with=device-with, initial-scale=1.0")
+		link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+		link(rel="stylesheet" type="text/css" href="/css/main.css")
+		link(rel="stylesheet" type="text/css" href="/css/animate.css")
+		link(href="https://fonts.googleapis.com/css?family=Lato:900i" rel="stylesheet")
+	body
+		nav(class="se-gris padding-largo text-center")
+			ul(class="no-lista mediano")
+				li(class="col-md-4 inline-block")
+					a(href="/" class="darkblue") Inicio #[small(class="lato small") Página de registro de información]
+				li(class="col-md-3 inline-block") 
+					a(href="/productos") #[small(class="lato small") Menú]
+				li(class="col-md-3 inline-block") 
+					a(href="/productos/new") #[small(class="lato small") Ingresar Registro]
+		block contenido

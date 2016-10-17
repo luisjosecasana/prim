@@ -1,0 +1,13 @@
+extends ./layout.jade
+block contenido
+	section(class="full-height text-center" id="main-content")
+		div(class="data")
+			div(class="col-md-6 center-block quitar-float text-center espacio-arriba")
+				img(src="images/ing3.png" class="animated fadeIn")
+				h1(class="Lato grande animated fadeIn retraso1") Imagenología
+			div(class="animated fadeIn	 retraso2")
+				h2 Registro de Información de Equipos de Imagen
+				nav
+					a(href="/productos" class="espacio-derecha") Menú
+					a(href="/productos/new" class="espacio-derecha") Ingresar Equipo
+					a(href="/admin" class="espacio-derecha") Editar-Eliminar Registro

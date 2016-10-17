@@ -1,0 +1,28 @@
+extends ../layout.jade
+block contenido
+	div(class="col-md-5 center-block quitar-float top-space text-left")
+		h1 Agrega Registro
+		form(method="post" action="/productos" style="margin-top:1.5em;" enctype="multipart/form-data")
+			div(class="form-group")
+				label Equipo
+				input(type="text" name="title" placeholder="nombre del Equipo" class="form-control")
+			div(class="form-group")
+				label Marca
+				input(type="text" name="brand" placeholder="Marca del Equipo" class="form-control")
+			div(class="form-group")
+				label Modelo
+				input(type="text" name="model" placeholder="Modelo del Equipo" class="form-control")
+			div(class="form-group")
+				label Serial
+				input(type="text" name="serial" placeholder="Serial del Equipo" class="form-control")
+			div(class="form-group")
+				label Imagen del Equipo
+				input(type="file" name="image_avatar")
+			div(class="form-group")
+				label Descripción
+				textarea(type="text" name="description" placeholder="Observaciones" class="form-control")
+			div(class="form-group")
+				label Contraseña
+				input(type="number" name="password" placeholder="ingrese contraseña" class="form-control")
+			div(class="form-group text-right")
+				input(type="submit" class="btn btn-info" value="Guardar")
